@@ -1,13 +1,19 @@
 abstract class Race {
-  private _name: string;
-  private dexterity: number;
-
-  constructor(name: string, dexterity: number) {
-    this._name = name;
-    this.dexterity = dexterity;
+  constructor(private _name: string, private _dexterity: number) { 
+  }
+  
+  get name() {
+    return this._name
   }
 
-  get name(): string {
-    return this.name;
+  get dexterity() {
+    return this._dexterity;
   }
+
+  static get createdRacesInstances(): number {
+    throw new Error('Not implemented');
+  }
+  abstract get maxLifePoints(): number
 }
+
+export default Race;
