@@ -1,7 +1,9 @@
+import { PVP } from './Battle';
 import Character from './Character';
 
-const elf = new Character('luska');
+const p1 = new Character('luska');
+const p2 = new Character('looser');
 
-console.log(elf.lifePoints);
-console.log(elf.defense);
-console.log(elf.receiveDamage(500));
+const Battle = new PVP(p1, p2);
+
+console.log(Battle.fight());
