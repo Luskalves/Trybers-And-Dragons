@@ -1,6 +1,6 @@
 import Archetype, { Mage } from './Archetypes';
 import Energy from './Energy';
-import Fighter from './Fighter';
+import Fighter, { SimpleFighter } from './Fighter';
 import Race, { Elf } from './Races';
 
 function randomNumber(): number {
@@ -79,9 +79,8 @@ class Character implements Fighter {
     return this._lifePoints;
   }
 
-  attack(enemy: Fighter): void {
-    const realDamage = enemy.defense - this._strength;
-    enemy.receiveDamage(realDamage);
+  attack(enemy: SimpleFighter | Fighter): void {
+    enemy.receiveDamage(this.strength);
   }
 
   levelUp(): void {
