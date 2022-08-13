@@ -2,7 +2,7 @@
 
 ## Contexto:
   Este foi um projeto feito pela Trybe com uma temática de RPG, com o objetivo de desenvolver um sistema de criação de personagens e combate tanto de jogadores contra jogadores quanto de jogadores contra monstros.
-  No projeto eu desenvolvi utilizando os conceitos que aprendi de <u>Programação orientada a objetos (POO)</u> e S.O.L.I.D e usando a linguagem de programação <b>TypeScript</b>.
+  No projeto eu desenvolvi utilizando os conceitos que aprendi de <u>Programação Orientada a Objetos (POO)</u> e S.O.L.I.D usando a linguagem de programação <b>TypeScript</b>.
 
 <br>
 
