@@ -6,6 +6,13 @@
 
 <br>
 
+## Tecnologias e conceitos que utilizei neste projeto:
+- TypeScript
+- NPM
+- VsCode
+- Programação Orientada A objetos (POO)
+- S.O.L.I.D
+
 ## O que eu fiz no projeto:
 
   Neste projeto já existia uma base prota para nós estudantes podermos desenvolver apenas o necessário. Por isso dentro da pasta ```./src``` o arquivo ```utils.ts``` e a pasta ```/battle``` com os arquivos ```index.ts``` e ```battle.ts``` estavam criados, mas o ```battle.ts``` estava comentado e o ```index.ts``` estava sem importações e exportações.
