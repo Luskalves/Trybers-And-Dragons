@@ -3,7 +3,7 @@
 # Sobre este Projeto:
 
 ## Contexto:
-  Este foi um projeto feito pela <a href="https://www.betrybe.com/">Trybe</a> com uma temática de RPG, com o objetivo de desenvolver um sistema de criação de personagens e combate tanto de jogadores contra jogadores quanto de jogadores contra monstros.
+  Este foi um projeto feito pela <a href="https://www.betrybe.com/ target="_blank">Trybe</a> com uma temática de RPG, com o objetivo de desenvolver um sistema de criação de personagens e combate tanto de jogadores contra jogadores quanto de jogadores contra monstros.
   No projeto eu desenvolvi utilizando os conceitos que aprendi de <u>Programação Orientada a Objetos (POO)</u> e S.O.L.I.D usando a linguagem de programação <b>TypeScript</b>.
 
 ## Tecnologias e conceitos que utilizei neste projeto:
